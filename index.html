@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <title>Portfólio</title>
+</head>
+
+<body>
+    <header id="header">
+        <a href="" class="logo"><img src="img/logo.png" alt="" srcset=""></a>
+        <nav>
+            <ul>
+                <li class="list active">
+                    <a href="#header">
+                        <span class="icon">
+                            <i class="fas fa-home"></i>
+                        </span>
+                        <span class="texto">
+                            Home
+                        </span>
+                    </a>
+                </li>
+                <li class="list" data-id="sobre">
+                    <a href="#sobre">
+                        <span class="icon">
+                            <i class="fas fa-user-edit"></i>
+                        </span>
+                        <span class="texto">
+                            Sobre
+                        </span>
+                    </a>
+                </li>
+                <li class="list" data-id="conhecimento">
+                    <a href="#conhecimento">
+                        <span class="icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </span>
+                        <span class="texto">
+                            Conhecimento
+                        </span>
+                    </a>
+                </li>
+                <li class="list" data-id="projetos">
+                    <a href="#projetos">
+                        <span class="icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </span>
+                        <span class="texto">
+                            Projetos
+                        </span>
+                    </a>
+                </li>
+                <li class="list" data-id="contato">
+                    <a href="#contato">
+                        <span class="icon">
+                            <i class="fas fa-address-card"></i>
+                        </span>
+                        <span class="texto">
+                            Contato
+                        </span>
+                    </a>
+                </li>
+                <div class="indicador"></div>
+            </ul>
+            <div class="fundo" id="teste"></div>
+        </nav>
+    </header>
+
+    <!-- POSIÇÃO SOBRE  O HEADER -->
+    <section>
+        <div class="envelope">
+            <img src="img/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg" alt="">
+        </div>
+        <div class="header-texto">
+            <h3>Desenvolvedor Web</h3>
+            <p>Caique de Castro Silva</p>
+            <a href="curriculo/Currículo.pdf" download>Currículo <i class="fa-solid fa-download"></i></a>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="titulo-sobre">
+            <h3>Sobre</h3>
+        </div>
+        <div class="wrap-sobre">
+            <div class="img-sobre">
+                <img src="img/foto perfil.jpeg" alt="" srcset="">
+            </div>
+            <p class="texto-sobre">
+                Olá, me chamo Caique e estou fazendo faculdade de Sistemas de informação com o objetivo de me tornar um
+                desenvolvedor web, para isso venho me dedicando em aprender quase todas as tecnologias referente a está
+                área, mas busco focar em JavaScript. Estou iniciando minha jornada e ainda não estou com um vasto
+                conhecimento sobre alguns frameworks, mas minha paixão por escrever código e vontade de aprender mais e
+                mais vão me ajudar nesse processo.
+            </p>
+        </div>
+    </section>
+
+    <section class="conhecimento" id="conhecimento">
+        <div class="titulo">
+            <h2>Conhecimentos</h2>
+        </div>
+        <div class="conhecimentos-item">
+            <div class="img">
+                <div class="titulo-item">
+                    <i class="fas fa-project-diagram"></i>
+                    <h3>Back-End</h3>
+                    <button class="btn"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="sessao-text">
+                    <p>Já implementei todos os conhecimentos básicos referente ao MongoDB, MySQL e Firebase em meus
+                        projetos pessoias e escolares, porém o que mais utilizo diariamente é o MongoDB. Java foi a
+                        primeira linguagem que estudei academicamente, entretanto após conhecer o Node.js acabei mudando
+                        o foco e passei a estudar mais sobre Node e JavaScript</p>
+                    <div class="icones-back">
+                        <div class="back-single">
+                            <img src="img/icons8-mongodb-a-cross-platform-document-oriented-database-program-96.png"
+                                alt="MongoDB" title="MongoDB">
+                        </div>
+                        <div class="back-single">
+                            <img src="img/mysql.png" alt="MySQL" title="MySQL">
+                        </div>
+                        <div class="back-single">
+                            <img src="img/icons8-node-js-96.png" alt="Node.js" title="Node.js">
+                        </div>
+                        <div class="back-single">
+                            <img src="img/java.png" alt="Java" title="Java">
+                        </div>
+                        <div class="back-single">
+                            <img src="img/icons8-firebase-a-google's-mobile-platform-that-helps-you-quickly-develop-high-quality-apps-96.png"
+                                alt="Firebase" title="Firebase">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="img">
+                <div class="titulo-item">
+                    <i class="fas fa-code"></i>
+                    <h3>Front-End</h3>
+                    <button class="btn"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="sessao-text">
+                    <p>Iniciei minha caminhada aprendendo HTML e CSS e após um periodo estudando os dois comecei a
+                        procurar sobre a integração do JavaSript com o HTML, e isso me fez querer aprender quase tudo
+                        sobre JavaScript, pois fiquei muito animado com a imensa quantidade de possiblidades de criar
+                        coisas novas. Atualmente venho dando meus primeiros passos utilizando o React, como treinamento
+                        venho transformando meus projetos que eram feitos com JavaScript puro para React.
+                    </p>
+                    <div class="front-itens">
+                        <div class="front-single">
+                            <img src="img/html.png" alt="HTML">
+                        </div>
+                        <div class="front-single">
+                            <img class="css" src="img/icons8-css3-100.png" alt="CSS">
+                        </div>
+                        <div class="front-single">
+                            <img src="img/icons8-javascript-100.png" alt="">
+                        </div>
+                        <div class="front-single">
+                            <img src="img/icons8-nativo-de-reagir-100.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="img-conhecimento">
+            <img src="img/dev-web.png" alt="Ilustração de um indivíduo sentado em uma cadeira estudando programação">
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <div class="titulo-projeto">
+            <h2>Projetos</h2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div id="1" class="swiper-slide">
+                    <div class="super-box">
+                        <img src="img/gerador-senha.png" alt="" srcset="">
+                    </div>
+                    <div class="conteudo-card">
+                        <h3>Gerador de Senha</h3>
+                        <p>Projeto realizado com JavaScript, para criação de uma senha possibilitando a escolha do
+                            tamnhado(caracteres), símbolos letras maiusculas, minusculas e números </p>
+                        <a href="https://github.com/kiq17/gerador-senha" target="_blank">Saiba mais</a>
+                    </div>
+                </div>
+                <div id="2" class="swiper-slide">
+                    <div class="super-box">
+                        <img src="img/Ei-sc-github.svg_.png" alt="" srcset="">
+                    </div>
+                    <div class="conteudo-card">
+                        <h3>Buscador de perfil</h3>
+                        <p>Projeto realizado por meio da API do Github. Para pegar as informações do avatar, descrição e
+                            repositorios do usuaário foram ulizados os conceitos de promisses e Ascyn await</p>
+                        <a href="https://github.com/kiq17/Buscador-github" target="_blank">Saiba mais</a>
+                    </div>
+                </div>
+                <div id="3" class="swiper-slide">
+                    <div class="super-box">
+                        <img src="img/lista-anotacao.png" alt="" srcset="">
+                    </div>
+                    <div class="conteudo-card">
+                        <h3>Lista de anotações</h3>
+                        <p>Projeto realizado com com JavaSrcipt, onde foi bastante utlizado o conceito de array e
+                            funções. Permite remoção individual das anotações, exibição do número referente ao total de
+                            anotações criadas e a posibilidade de remover todas as anotações.</p>
+                        <a href="https://github.com/kiq17/lista-anotacoes"  target="_blank">Saiba mais</a>
+                    </div>
+                </div>
+                <div id="4" class="swiper-slide">
+                    <div class="super-box">
+                        <img src="img/tela-login.png" alt="" srcset="">
+                    </div>
+                    <div class="conteudo-card">
+                        <h3>Tela de login</h3>
+                        <p>Projeto realizado com HTML, CSS e um pouco de JavaScript para fazer a função de
+                            esconder/mostrar senha do usuário.</p>
+                        <a href="https://github.com/kiq17/tela-login" target="_blank">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <div class="titulo-contato">
+            <h2>Contato</h2>
+        </div>
+        <div class="contato-conteiner">
+            <div class="contato-info">
+                <div>
+                    <ul class="lista-contato">
+                        <li><a href="https://www.linkedin.com/in/caique-de-castro-silva-126467231/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a></i>Linkedin</li>
+                        <li><a href="https://github.com/kiq17" target="_blank"><i class="fab fa-github"></i></a>Github
+                        </li>
+                        <li><i class="fa-solid fa-envelope"></i>caiquecontato@yahoo.com</li>
+                        <li><i class="fa-solid fa-location-dot"></i>Rio de Janeiro, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contato-form">
+                <form action="https://formsubmit.co/dd903d4ea7c18662a07c63da56f88af0" method="POST">
+                    <div class="form-box">
+                        <div class="input-box">
+                            <input type="text" required class="form-input" placeholder=" " name="nome">
+                            <label for="nome" class="form-label">Nome</label>
+                        </div>
+                        <div class="input-box">
+                            <input type="email" required class="form-input" placeholder=" " name="email">
+                            <label for="email" class="form-label">Email</label>
+                        </div>
+                        <div class="input-box">
+                            <textarea class="form-text" required placeholder=" " name="mensagem"></textarea>
+                            <label for="mensagem" class="form-label">Escreva sua Mensagem</label>
+                        </div>
+                        <input type="hidden" name="_next" value="https://kiq17.github.io/next-page/">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <footer class="rodape">
+        <div class="texto-footer">
+            <p>Projeto feito em 2022 por Caique de castro silva</p>
+        </div>
+        <div class="icones-footer">
+            <ul>
+                <li><a href="https://www.linkedin.com/in/caique-de-castro-silva-126467231/" target="_blank"><i
+                            class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/kiq17" target="_blank"><i class="fab fa-github"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<!-- Caso o efeito smooth não esteve funcionando ativo pelo chrome://flags/#smooth-scrolling  -->
+
+<script src="/main.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+        },
+        loop: true,
+    });
+</script>
+
+</html>
