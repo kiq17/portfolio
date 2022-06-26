@@ -82,17 +82,3 @@ window.addEventListener('scroll', ()=>{
         }
     })
 })
-
-/* MOSTRAR OU ESCONDER HEADER  */
-
-let valorScroll = window.scrollY
-
-window.addEventListener('scroll', ()=>{
-    if(valorScroll < window.scrollY){
-        header.classList.add('ativo')
-    }else{
-        header.classList.remove('ativo')
-    }
-
-    valorScroll = window.scrollY
-})
