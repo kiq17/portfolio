@@ -70,8 +70,6 @@ window.addEventListener('scroll', ()=>{
         const sectionTop = section.offsetTop
         const sectionAltura = section.clientHeight
 
-        /* PARA AIVAR O INDICADOR QUANDO 1/3 DA SECTION APARECER NA TELA BASTA ULIZAR (sectionTop - sectionAltura / 3), MAS PARA UTLIZAR SOMENTO O TOPO USE sectionTop */
-
         if(pageYOffset >= (sectionTop - sectionAltura / 3)){
             current = section.getAttribute('id')
         }
