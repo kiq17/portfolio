@@ -1,3 +1,3 @@
 <h3>Aviso</h3>
 
-Caso o efeito smooth não esteve funcionando ativo pelo chrome://flags/#smooth-scrolling
+Caso o efeito smooth não esteja funcionando ative pelo chrome://flags/#smooth-scrolling
