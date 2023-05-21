@@ -16,17 +16,6 @@ function classes() {
 }
 list.forEach((item) => item.addEventListener('click', classes));
 
-/* ABRIR E FECHAR PARTE DO FRONT-END E BACK-END NA SESSAO CONHECIMENTOS*/
-
-const btns = document.querySelectorAll(".btn");
-
-btns.forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-        const quetion = e.currentTarget.parentElement.parentElement;
-        quetion.classList.toggle("mostrar");
-    });
-});
-
 
 /* MOVIMENTAÇÃO DOS LINKS INTERNOS */
 
@@ -70,7 +59,9 @@ window.addEventListener('scroll', ()=>{
         const sectionTop = section.offsetTop
         const sectionAltura = section.clientHeight
 
-        if(pageYOffset >= (sectionTop - sectionAltura / 3)){
+        /* PARA AIVAR O INDICADOR QUANDO 1/3 DA SECTION APARECER NA TELA BASTA ULIZAR (sectionTop - sectionAltura / 3), MAS PARA UTLIZAR SOMENTO O TOPO USE sectionTop */
+
+        if(scrollY >= (sectionTop - sectionAltura / 3)){
             current = section.getAttribute('id')
         }
     })
