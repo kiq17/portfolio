@@ -73,3 +73,20 @@ window.addEventListener('scroll', ()=>{
         }
     })
 })
+
+/* ANIMAÇÕES */
+
+window.sr = ScrollReveal({
+    origin: "top",
+    distance: "60px",
+    duration: 1500,
+    delay: 100,
+    reset: true
+});
+
+sr.reveal(".img-sobre", {origin: "left"})
+sr.reveal(".texto-sobre", {origin: "right"})
+sr.reveal(".img")
+sr.reveal(".swiper-slide", {origin: "left"})
+sr.reveal(".contato-info", {origin: "left"})
+sr.reveal(".contato-form")
