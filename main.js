@@ -1,14 +1,8 @@
-const dbElm = document.querySelector(".db-single img")
 const header = document.querySelector('header');
 /* FIXANDO O POSICIONAMENTO DO HEADER */
 
 window.addEventListener('scroll', ()=> {
     header.classList.toggle('sticky', window.scrollY > 10);
-    if(window.innerWidth < 660){
-        dbElm.src = "https://simpleskill.icons.workers.dev/svg?i=mysql,mongodb,sqlite,postgresql,firebase,prisma,sequelize,sqlalchemy,mongoose&theme=light&perline=7"
-    } else{
-        dbElm.src = "https://simpleskill.icons.workers.dev/svg?i=mysql,mongodb,sqlite,postgresql,firebase,prisma,sequelize,sqlalchemy,mongoose&theme=light"
-    }
 });
 
 
