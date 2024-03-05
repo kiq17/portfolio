@@ -1,335 +1,440 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <script defer src="main.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
     <title>Portfólio</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header id="header">
-        <a href="" class="logo"><img src="img/logo.png" alt="" srcset=""></a>
-        <nav>
-            <ul>
-                <li class="list active">
-                    <a href="#header">
-                        <span class="icon">
-                            <i class="fas fa-home"></i>
-                        </span>
-                        <span class="texto">
-                            Home
-                        </span>
-                    </a>
-                </li>
-                <li class="list" data-id="sobre">
-                    <a href="#sobre">
-                        <span class="icon">
-                            <i class="fas fa-user-edit"></i>
-                        </span>
-                        <span class="texto">
-                            Sobre
-                        </span>
-                    </a>
-                </li>
-                <li class="list" data-id="conhecimento">
-                    <a href="#conhecimento">
-                        <span class="icon">
-                            <i class="fas fa-user-graduate"></i>
-                        </span>
-                        <span class="texto">
-                            Conhecimento
-                        </span>
-                    </a>
-                </li>
-                <li class="list" data-id="projetos">
-                    <a href="#projetos">
-                        <span class="icon">
-                            <i class="fas fa-laptop-code"></i>
-                        </span>
-                        <span class="texto">
-                            Projetos
-                        </span>
-                    </a>
-                </li>
-                <div class="indicador"></div>
-            </ul>
-            <div class="fundo" id="teste"></div>
-        </nav>
+      <a href="" class="logo"><img src="img/logo.png" alt="" srcset="" /></a>
+      <nav>
+        <ul>
+          <li class="list active">
+            <a href="#header">
+              <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+              <span class="texto"> Home </span>
+            </a>
+          </li>
+          <li class="list" data-id="sobre">
+            <a href="#sobre">
+              <span class="icon">
+                <i class="fas fa-user-edit"></i>
+              </span>
+              <span class="texto"> Sobre </span>
+            </a>
+          </li>
+          <li class="list" data-id="conhecimento">
+            <a href="#conhecimento">
+              <span class="icon">
+                <i class="fas fa-user-graduate"></i>
+              </span>
+              <span class="texto"> Conhecimento </span>
+            </a>
+          </li>
+          <li class="list" data-id="projetos">
+            <a href="#projetos">
+              <span class="icon">
+                <i class="fas fa-laptop-code"></i>
+              </span>
+              <span class="texto"> Projetos </span>
+            </a>
+          </li>
+          <div class="indicador"></div>
+        </ul>
+        <div class="fundo" id="teste"></div>
+      </nav>
     </header>
 
     <!-- POSIÇÃO SOBRE  O HEADER -->
     <section>
-        <div class="envelope">
-            <img src="img/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg" alt="">
-        </div>
-        <div class="header-texto">
-            <h3>Desenvolvedor Web</h3>
-            <p>Olá, meu nome é <span>Caique de Castro Silva</span></p>
-            <p>Este é meu <a href="https://github.com/kiq17" target="_blank">Github↗</a></p>
-            <p>Entre em contato pelo meu<a href="https://www.linkedin.com/in/caique-de-castro-silva/" target="_blank">Linkedin↗</a></p>
-            <p>Ou veja meu <a href="/portfolio/CaiqueResume.pdf" target="_blank">Currículo↗</a></p>
-        </div>
+      <div class="envelope">
+        <img src="img/nubelson-fernandes-UcYBL5V0xWQ-unsplash.jpg" alt="" />
+      </div>
+      <div class="header-texto">
+        <h3>Desenvolvedor Web</h3>
+        <p>Olá, meu nome é <span>Caique de Castro Silva</span></p>
+        <p>
+          Este é meu
+          <a href="https://github.com/kiq17" target="_blank">Github↗</a>
+        </p>
+        <p>
+          Entre em contato pelo meu<a
+            href="https://www.linkedin.com/in/caique-de-castro-silva/"
+            target="_blank"
+            >Linkedin↗</a
+          >
+        </p>
+        <p>
+          Ou veja meu
+          <a href="/portfolio/side/CaiqueResume.pdf" target="_blank"
+            >Currículo↗</a
+          >
+        </p>
+      </div>
     </section>
 
     <section class="sobre" id="sobre">
-        <div class="titulo-sobre">
-            <h3>Sobre</h3>
+      <div class="titulo-sobre">
+        <h3>Sobre</h3>
+      </div>
+      <div class="wrap-sobre">
+        <div class="img-sobre">
+          <img src="img/foto perfil.jpeg" alt="" srcset="" />
         </div>
-        <div class="wrap-sobre">
-            <div class="img-sobre">
-                <img src="img/foto perfil.jpeg" alt="" srcset="">
-            </div>
-            <p class="texto-sobre">
-                <span>
-                    🎯Focado em buscar inovações para construir aplicações que ofereçam melhor desempenho e que atendam
-                    necessidades do usuário.
-                </span>
+        <p class="texto-sobre">
+          <span>
+            🎯Focado em buscar inovações para construir aplicações que ofereçam
+            melhor desempenho e que atendam necessidades do usuário.
+          </span>
 
-                <span>
-                    🎓Graduando em Tecnologia de Sistemas de Informação
-                </span>
-            </p>
-        </div>
+          <span> 🎓Graduando em Tecnologia de Sistemas de Informação </span>
+        </p>
+      </div>
     </section>
 
     <section class="conhecimento" id="conhecimento">
-        <div class="titulo">
-            <h2>Conhecimentos</h2>
+      <div class="titulo">
+        <h2>Conhecimentos</h2>
+      </div>
+      <div class="conhecimentos-item">
+        <div class="img">
+          <div class="titulo-item">
+            <figure style="width: 32px; height: 32px">
+              <img
+                src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
+                alt="JavaScript"
+              />
+            </figure>
+            <h3>JavaScript</h3>
+          </div>
+          <div class="sessao-text">
+            <p>React</p>
+            <p>Vue</p>
+            <p>Express</p>
+            <p>Redux</p>
+            <p>Jest</p>
+            <p>Vitest</p>
+            <p>React Router</p>
+            <p>Vue Router</p>
+          </div>
         </div>
-        <div class="conhecimentos-item">
-            <div class="img">
-                <div class="titulo-item">
-                    <figure style="width: 32px; height: 32px;">
-                        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
-                            alt="JavaScript">
-                    </figure>
-                    <h3>JavaScript</h3>
-                </div>
-                <div class="sessao-text">
-                    <p>React</p>
-                    <p>Vue</p>
-                    <p>Express</p>
-                    <p>Redux</p>
-                    <p>Jest</p>
-                    <p>Vitest</p>
-                    <p>React Router</p>
-                    <p>Vue Router</p>
-                </div>
-            </div>
-            <div class="img">
-                <div class="titulo-item">
-                    <figure style="width: 32px; height: 32px;">
-                        <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Python-Dark.svg"
-                            alt="JavaScript">
-                    </figure>
-                    <h3>Python</h3>
-                </div>
-                <div class="sessao-text">
-                    <p>FastAPI</p>
-                    <p>Pydantic</p>
-                    <p>Pytest</p>
-                </div>
-            </div>
-            <div class="img">
-                <div class="titulo-item">
-                    <figure style="font-size: 24px;">
-                        <i class="fa-solid fa-database"></i>
-                    </figure>
-                    
-                    <h3 style="margin-bottom: 2px;">Banco de dados</h3>
-                </div>
-                <div class="sessao-text">
-                    <p>MySQL</p>
-                    <p>PostgreSQL</p>
-                    <p>MongoDB</p>
-                    <p>Firebase</p>
-                    <p>SQLite</p>
-                </div>
-            </div>
+        <div class="img">
+          <div class="titulo-item">
+            <figure style="width: 32px; height: 32px">
+              <img
+                src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/Python-Dark.svg"
+                alt="JavaScript"
+              />
+            </figure>
+            <h3>Python</h3>
+          </div>
+          <div class="sessao-text">
+            <p>FastAPI</p>
+            <p>Pydantic</p>
+            <p>Pytest</p>
+          </div>
         </div>
-        <div class="img-conhecimento">
-            <img src="img/dev-web.png" alt="Ilustração de um indivíduo sentado em uma cadeira estudando programação">
+        <div class="img">
+          <div class="titulo-item">
+            <figure style="font-size: 24px">
+              <i class="fa-solid fa-database"></i>
+            </figure>
+
+            <h3 style="margin-bottom: 2px">Banco de dados</h3>
+          </div>
+          <div class="sessao-text">
+            <p>MySQL</p>
+            <p>PostgreSQL</p>
+            <p>MongoDB</p>
+            <p>Firebase</p>
+            <p>SQLite</p>
+          </div>
         </div>
+      </div>
+      <div class="img-conhecimento">
+        <img
+          src="img/dev-web.png"
+          alt="Ilustração de um indivíduo sentado em uma cadeira estudando programação"
+        />
+      </div>
     </section>
 
     <section class="projetos" id="projetos">
-        <div class="titulo-projeto">
-            <h2>Projetos</h2>
-        </div>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div id="3" class="swiper-slide">
-                    <div class="super-box">
-                        <img src="img/lista-anotacao.png" alt="" srcset="">
-                    </div>
-                    <div class="conteudo-card">
-                        <h3>Artigos</h3>
-                        <p>Aplicação na qual o usuário poderá criar artigos com textos em markdown e tags para facilitar
-                            a filtragem de conteúdo. O sistema de pesquisa pode ser por titulo ou tag, no qual é
-                            verificado se o que foi digitado ou selecionado pertence ao artigo. O projeto tem
-                            armazenamento local e permite edição e exclusão de textos ou tags.</p>
-                        <div class="links-card">
-                            <a href="https://github.com/kiq17/react-typescript-notes" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Github
-                            </a>
-                            <a href="https://react-typescript-notes-kiq17.vercel.app/" target="_blank">
-                                <i class="fa-solid fa-tower-broadcast"></i>
-                                Live
-                            </a>
-                        </div>
-                        <div class="techs">
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg"
-                                    alt="React">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg"
-                                    alt="TypeScript">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TailwindCSS-Dark.svg"
-                                    alt="TailwindCSS">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-slide">
-                    <div class="super-box">
-                        <img src="img/gerador-senha.png" alt="" srcset="">
-                    </div>
-                    <div class="conteudo-card">
-                        <h3>Gerador de Senha</h3>
-                        <p>
-                            Projeto realizado com JavaScript, para criação de uma senha possibilitando a escolha do
-                            tamanho(caracteres), símbolos letras maiúsculas, minúsculas e números.
-                        </p>
-                        <div class="links-card">
-                            <a href="https://github.com/kiq17/gerador-senha" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Github
-                            </a>
-                            <a href="https://kiq17.github.io/gerador-senha/" target="_blank">
-                                <i class="fa-solid fa-tower-broadcast"></i>
-                                Live
-                            </a>
-                        </div>
-                        <div class="techs">
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
-                                    alt="JavaScript">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg"
-                                    alt="HTML">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
-                                    alt="CSS">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div id="2" class="swiper-slide">
-                    <div class="super-box">
-                        <img src="img/Ei-sc-github.svg_.png" alt="" srcset="">
-                    </div>
-                    <div class="conteudo-card">
-                        <h3>Buscador de perfil</h3>
-                        <p>Projeto realizado por meio da API do Github. Possibilita a busca de qualquer perfil existente
-                            no Github, exibindo informações do avatar, descrição e repositórios do usuário. Foram
-                            utilizados os conceitos de promisses e Ascyn await, para lidar com as requisições.</p>
-                        <div class="links-card">
-                            <a href="https://github.com/kiq17/buscador-github" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Github
-                            </a>
-                            <a href="https://kiq17.github.io/buscador-github/" target="_blank">
-                                <i class="fa-solid fa-tower-broadcast"></i>
-                                Live
-                            </a>
-                        </div>
-                        <div class="techs">
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
-                                    alt="JavaScript">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg"
-                                    alt="HTML">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
-                                    alt="CSS">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-                <div id="5" class="swiper-slide">
-                    <div class="super-box">
-                        <img src="img/carrinho.png" alt="Imagem carrinho de compra">
-                    </div>
-                    <div class="conteudo-card">
-                        <h3>E-commerce Estático</h3>
-                        <p>Site estático baseado no modelo de paginas E-commerce com carrinho de compras com a
-                            possiblidade de remover, adicionar e calcular preço total.</p>
-                        <div class="links-card">
-                            <a href="https://github.com/kiq17/ecommerce-static" target="_blank">
-                                <i class="fab fa-github"></i>
-                                Github
-                            </a>
-                            <a href="https://kiq17.github.io/ecommerce-static/" target="_blank">
-                                <i class="fa-solid fa-tower-broadcast"></i>
-                                Live
-                            </a>
-                        </div>
-                        <div class="techs">
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
-                                    alt="JavaScript">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg"
-                                    alt="HTML">
-                            </figure>
-                            <figure style="width: 50px; height: 50px;">
-                                <img src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
-                                    alt="CSS">
-                            </figure>
-                        </div>
-                    </div>
-                </div>
+      <div class="titulo-projeto">
+        <h2>Projetos</h2>
+      </div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div id="3" class="swiper-slide">
+            <div class="super-box">
+              <img src="img/Capturar.PNG" alt="" srcset="" />
             </div>
+            <div class="conteudo-card">
+              <h3>Artigos</h3>
+              <p>
+                Aplicação na qual o usuário poderá criar artigos com textos em
+                markdown e tags para facilitar a filtragem de conteúdo. O
+                sistema de pesquisa pode ser por titulo ou tag, no qual é
+                verificado se o que foi digitado ou selecionado pertence ao
+                artigo. O projeto tem armazenamento local e permite edição e
+                exclusão de textos ou tags.
+              </p>
+              <div class="links-card">
+                <a
+                  href="https://github.com/kiq17/react-typescript-notes"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Github
+                </a>
+                <a
+                  href="https://react-typescript-notes-kiq17.vercel.app/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-tower-broadcast"></i>
+                  Live
+                </a>
+              </div>
+              <div class="techs">
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg"
+                    alt="React"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg"
+                    alt="TypeScript"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TailwindCSS-Dark.svg"
+                    alt="TailwindCSS"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="super-box">
+              <img src="img/Capturar.PNG" alt="" srcset="" />
+            </div>
+            <div class="conteudo-card">
+              <h3>OndeIr</h3>
+              <p>
+                Depois da pandemia as pessoas ficaram com vontade de viajar,
+                começaram a ter curiosidade sobre lugares diferentes e tiveram
+                mais interesse em viagens. Mediante a este cenário surgiu à
+                intenção de criar um lugar onde as pessoas possam mostrar suas
+                experiências e mostrar para os outros pontos positivos e
+                negativos dos lugares que visitaram.
+              </p>
+              <div class="links-card">
+                <a
+                  href="https://github.com/kiq17/gerador-senha"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Github
+                </a>
+                <a
+                  href="https://kiq17.github.io/gerador-senha/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-tower-broadcast"></i>
+                  Live
+                </a>
+              </div>
+              <div class="techs">
+                <figure style="width: 50px; height: 50px; position: relative">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/React-Dark.svg"
+                    alt="React"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/TypeScript.svg"
+                    alt="TypeScript"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
+                    alt="CSS"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/MongoDB.svg"
+                    alt="MongoDB"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/ExpressJS-Dark.svg"
+                    alt="Express"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div id="2" class="swiper-slide">
+            <div class="super-box">
+              <img src="img/Capturar.PNG" alt="" srcset="" />
+            </div>
+            <div class="conteudo-card">
+              <h3>Buscador de perfil</h3>
+              <p>
+                Projeto realizado por meio da API do Github. Possibilita a busca
+                de qualquer perfil existente no Github, exibindo informações do
+                avatar, descrição e repositórios do usuário. Foram utilizados os
+                conceitos de promisses e Ascyn await, para lidar com as
+                requisições.
+              </p>
+              <div class="links-card">
+                <a
+                  href="https://github.com/kiq17/buscador-github"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Github
+                </a>
+                <a
+                  href="https://kiq17.github.io/buscador-github/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-tower-broadcast"></i>
+                  Live
+                </a>
+              </div>
+              <div class="techs">
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
+                    alt="JavaScript"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg"
+                    alt="HTML"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
+                    alt="CSS"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
+          <div id="5" class="swiper-slide">
+            <div class="super-box">
+              <img src="img/Capturar.PNG" alt="Imagem carrinho de compra" />
+            </div>
+            <div class="conteudo-card">
+              <h3>E-commerce Estático</h3>
+              <p>
+                Site estático baseado no modelo de paginas E-commerce com
+                carrinho de compras com a possiblidade de remover, adicionar e
+                calcular preço total. Por ter sido feito com JavaScript puro,
+                foram utilizados muitos conceitos sobre manipulação do DOM.
+              </p>
+              <div class="links-card">
+                <a
+                  href="https://github.com/kiq17/ecommerce-static"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  Github
+                </a>
+                <a
+                  href="https://kiq17.github.io/ecommerce-static/"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-tower-broadcast"></i>
+                  Live
+                </a>
+              </div>
+              <div class="techs">
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/JavaScript.svg"
+                    alt="JavaScript"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/HTML.svg"
+                    alt="HTML"
+                  />
+                </figure>
+                <figure style="width: 50px; height: 50px">
+                  <img
+                    src="https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/CSS.svg"
+                    alt="CSS"
+                  />
+                </figure>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <footer class="rodape">
-        <div class="texto-footer">
-            <p>Projeto feito em 2022 por Caique de castro silva</p>
-            <p>Rio de Janeiro, Brasil</p>
-            <p>Atualizado em 2024</p>
-        </div>
-        <div class="icones-footer">
-            <ul>
-                <li>
-                    <a href="https://www.linkedin.com/in/caique-de-castro-silva-126467231/" target="_blank">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li><a href="https://github.com/kiq17" target="_blank"><i class="fab fa-github"></i></a></li>
-            </ul>
-        </div>
+      <div class="texto-footer">
+        <p>Projeto feito em 2022 por Caique de castro silva</p>
+        <p>Rio de Janeiro, Brasil</p>
+        <p>Atualizado em 2024</p>
+      </div>
+      <div class="icones-footer">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/caique-de-castro-silva/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/kiq17" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
